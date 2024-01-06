@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: rancher-demo-pod
+spec:
+  containers:
+  - name: rancher-demo-container
+    image: salahgo/rancher-demo
