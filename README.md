@@ -1,4 +1,4 @@
-Certainly! Here's the full README content in one block:
+Certainly! Here's the enhanced README content in one code cell:
 
 ```markdown
 # Minikube Kubernetes Deployment for rancher-demo
@@ -15,18 +15,14 @@ Before you begin, ensure you have the following installed on your system:
 
 ## Getting Started
 
-1. Clone this repository:
+```bash
+# Clone the repository
+git clone https://github.com/Khalil-Bchir/TP_deploy_k8s.git
+cd TP_deploy_k8s
 
-   ```bash
-   git clone <repository-url>
-   cd TP_deploy_k8s
-   ```
-
-2. Set Minikube context:
-
-   ```bash
-   kubectl config use-context minikube
-   ```
+# Set Minikube context
+kubectl config use-context minikube
+```
 
 ## Deploying as a Simple Pod
 
@@ -186,5 +182,3 @@ minikube service rancher-demo-service
 ```bash
 kubectl delete -f rancher-demo-svc.yaml
 ```
-```
-
